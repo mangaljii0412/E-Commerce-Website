@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-commerce Website</title>
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+<body>
     <section id="header">
-      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
-      <div>
+        <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+        <div>
         <ul id="navbar">
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="Shop.html">Shop</a></li>
-          <li><a href="Blog.html">Blog</a></li>
-          <li><a href="About.html">About</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li>
-            <a href="Cart.html"><i class="bx bx-shopping-bag"></i></a>
-          </li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="Shop.html">Shop</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li id="lg-bag"><a href="Cart.html"><i class="bx bx-shopping-bag"></i></a></li>
+            <a href="#" id="close"><i class='bx bx-window-close' ></i></a>
         </ul>
-      </div>
+        </div>
+        <div id="mobile">
+            <a href="Cart.html"><i class="bx bx-shopping-bag"></i></a>
+            <i id="bar" class="bx bx-menu"></i>
+        </div>
     </section>
 
     <section id="hero">
@@ -205,7 +206,7 @@
         </div>
     </section>
 
-    <section id="banner" class="section-p1">
+    <section id="banner" class="section-m1">
         <h4>Repair Services</h4>
         <h2>Up to <span>70% Off</span> - All t-Shirts & Accessories</h2>
         <button class="normal">Explore More</button>
@@ -352,6 +353,110 @@
             </div>
         </div>
     </section>
+
+    <section id="sm-banner" class="section-p2">
+        <div class="pro-container">
+            <div class="pro">
+                <h4>crazy deals</h4>
+                <h2>buy 1 get 1 free</h2>
+                <span>The best classic dress is on sale at Cara</span>
+                <button class="white">Learn More</button>
+            </div>
+
+            <div class="pro pro2">
+                <h4>spring/summer</h4>
+                <h2>Upcoming Sale</h2>
+                <span>The best classic dress is on sale at Cara</span>
+                <button class="white">Collection</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="new-banner" >
+        <div class="pro-container">
+            <div class="pro">
+                <h2>Seasonal Sale</h2>
+                <h3>Winter Collection -50% OFF</h3>
+            </div>
+
+            <div class="pro pro1">
+                <h2>New Footwear Collection</h2>
+                <h3>Spring/Summer 2024</h3>
+            </div>
+
+            <div class="pro pro2">
+                <h2>T-shirts</h2>
+                <h3>New Trendy Prints</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="newssletter">
+        <div class="news-container section-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign Up For Newssletters</h4>
+                <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+            </div>
+    
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <button class="normal">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Mansarovar Sector 15 , Jaipur</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 8432185811</p>
+            <p><strong>Hours:</strong> 10:00-18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="bx bxl-facebook"></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-pinterest-alt'></i>
+                    <i class='bx bxl-youtube' ></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024, Mohit - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
 
     
 
